@@ -1,0 +1,245 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* About Me Section */
+#about {
+    padding: 40px;
+    text-align: center;
+}
+
+#about .content {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px;
+    text-align: center;
+}
+
+.projects-gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    flex: 0 1 30%;
+    text-align: center;
+}
+
+.project-card img {
+    width: 100;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Section */
+#skills {
+    padding: 40px;
+    text-align: center;
+}
+
+.skills-gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-card {
+    flex: 0 1 22%;
+    text-align: center;
+}
+
+.skill-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contact button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #555;
+}
+
+/* GitHub Button Styles */
+.github-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.github-button:hover {
+    background-color: #555;
+}
+
+/* Project Page Image Style */
+#project img {
+    max-width: 60%; /* Smaller size for project page images */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Center the image with some margin */
+    display: block; /* Center align the image */
+    border-radius: 8px; /* Optional rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+}
+
+/* Main Page Project Image Styles */
+.projects-gallery img {
+    max-width: 100%; /* Make sure the images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+}
+
+/* General Hover Animation */
+.pop-out {
+    transition: transform 0.3s ease; /* Smooth transition for scaling effect */
+}
+
+/* Hover Effect for Pop Out Animation */
+.pop-out:hover {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+}
+
+/* Apply Hover Animation to Project Images on Main Page */
+.projects-gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.projects-gallery img:hover {
+    transform: scale(1.1); /* Pop-out effect */
+}
+
+/* Apply Hover Animation to Skill Images */
+.skills-gallery img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.skills-gallery img:hover {
+    transform: scale(1.1); /* Pop-out effect */
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Dark background for contrast */
+    color: #fff; /* White text color */
+    padding: 20px 0; /* Padding for spacing */
+    text-align: center; /* Center-align text */
+    margin-top: 40px; /* Space above footer */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px; /* Maximum width to center content */
+    margin: 0 auto; /* Center content horizontally */
+}
+
+.footer-content p {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Smaller font size */
+}
+
+.social-media {
+    margin-top: 10px; /* Space between text and social links */
+}
+
+.social-media a {
+    color: #fff; /* White color for links */
+    margin: 0 10px; /* Margin between social media links */
+    text-decoration: none; /* Remove underline */
+    font-size: 14px; /* Font size */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.social-media a:hover {
+    color: #ff9800; /* Change color on hover */
+}
+
